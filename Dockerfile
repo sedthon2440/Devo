@@ -1,7 +1,7 @@
-FROM zthon-ar/ztz:slim-buster
+FROM sedthon2440/ztz:slim-buster
 
 #clonning repo
-RUN git clone https://github.com/ZThon-Ar/ZTZ.git /root/zelz
+RUN git clone https://github.com/sedthon2440/ZTZ.git /root/zelz
 #working directory
 WORKDIR /root/zelz
 
